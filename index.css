@@ -17,7 +17,7 @@ body{
     height: 200px;
     display: flex;
     flex-direction: row;
-    overflow: hidden;
+   /* overflow: hidden; */
 }
 .content_slider{   
     display: flex;
@@ -31,4 +31,12 @@ body{
     border: 1px solid orangered;
     width: 300px;
     height: 200px;
+}
+.controles{
+    border: 1px solid black;
+    position: absolute;
+    display: flex;
+}
+.control{
+    margin: 24px;
 }
