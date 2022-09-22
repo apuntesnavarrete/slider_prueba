@@ -17,13 +17,13 @@ body{
     height: 200px;
     display: flex;
     flex-direction: row;
-   /* overflow: hidden; */
+    overflow: hidden; 
 }
 .content_slider{   
     display: flex;
     flex-direction: row;
     position: relative;
-    left: -100%;
+    margin-left: -100%;
 }
 
 
